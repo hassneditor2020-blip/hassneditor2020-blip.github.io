@@ -1,8 +1,8 @@
 :HL["/_next/static/css/ff2b4ecc550146c9.css","style"]
 :HL["/_next/static/css/4cd960bc488e225d.css","style"]
-:HL["/_next/static/css/e76bfa78f48c282a.css","style"]
+:HL["/_next/static/css/1c90fed29a03492b.css","style"]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-400-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-500-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/hassn-logo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(arabic)","param":null,"prefetchHints":16,"slots":{"children":{"name":"works","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"dental-motion-2026-explainer","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"FJnx-mG6enNCzVTuN1xoi"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(arabic)","param":null,"prefetchHints":16,"slots":{"children":{"name":"works","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"dental-motion-2026-explainer","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"uIOGY9zT1cWqGVH96fWsL"}
