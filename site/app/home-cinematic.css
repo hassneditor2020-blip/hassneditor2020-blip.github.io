@@ -562,3 +562,70 @@
   .home-page .home-profile-links a:hover,
   .home-page .contact-card:hover { transform: none; }
 }
+
+
+
+/* Compact mobile cinema pass — smaller cards, tighter rhythm and distinct contact bubbles. */
+@media (max-width: 700px) {
+  .home-page .hero { gap: 18px; padding-top: 28px; padding-bottom: 30px; }
+  .home-page .hero-copy > .eyebrow { margin-bottom: 16px; }
+  .home-page.ar .hero-copy h1, .home-page.en .hero-copy h1 { margin-bottom: 12px; font-size: clamp(30px, 8.2vw, 38px); }
+  .home-page .hero-copy .intro { font-size: 13px; line-height: 1.7; }
+  .home-page .hero-actions { margin-top: 14px; }
+  .home-page .hero-actions .primary-button, .home-page .hero-actions .secondary-button { min-height: 44px; padding: 8px 10px; font-size: 12px; }
+  .home-page .hero .reel { padding: 7px; }
+  .home-page .hero-video-frame { margin-bottom: 6px; }
+  .home-page .hero-video-play .play-symbol { width: 48px; height: 48px; }
+  .home-page .featured-reels, .home-page .home-work-shortcuts, .home-page .trust-stats,
+  .home-page .services-section, .home-page .digital-projects, .home-page .process-section,
+  .home-page .testimonials-section, .home-page .brief-section, .home-page .faq-section,
+  .home-page .contact-section, .home-page .home-profile-links, .home-page > .home-footer { padding-inline: 14px; }
+  .home-page .featured-reels { padding-top: 30px; padding-bottom: 18px; }
+  .home-page .featured-heading h2 { font-size: 27px; }
+  .home-page .featured-intro { font-size: 11px; margin-bottom: 10px; }
+  .home-page .featured-reel-list { gap: 8px; margin-inline: -14px; padding-inline: 14px; }
+  .home-page .featured-reel-card { flex: 0 0 min(57vw, 198px); }
+  .home-page .featured-reel-copy { padding: 9px; }
+  .home-page .featured-reel-copy h3 { margin: 3px 0; font-size: 14px; line-height: 1.3; }
+  .home-page .featured-reel-copy p { margin-bottom: 6px; font-size: 10px; line-height: 1.4; }
+  .home-page .featured-reel-actions a { min-height: 33px; padding: 6px 7px; font-size: 10px; }
+  .home-page .home-work-shortcuts { padding-bottom: 30px; }
+  .home-page .home-work-shortcuts h2 { margin-bottom: 10px; font-size: 16px; }
+  .home-page .kokab-feature { margin-inline: 14px; margin-bottom: 30px; padding: 10px; gap: 9px; }
+  .home-page .kokab-feature-image { height: 120px; }
+  .home-page .trust-stats { padding-bottom: 30px; }
+  .home-page .trust-stat { min-height: 92px; padding: 11px; }
+  .home-page .trust-stat strong { font-size: 22px; }
+  .home-page :is(.services-section, .digital-projects, .process-section, .testimonials-section, .faq-section) { padding-block: 30px; }
+  .home-page > section .section-heading h2, .home-page > .brief-section h2,
+  .home-page .testimonials-heading h2, .home-page .digital-projects-heading h2 { font-size: 25px; line-height: 1.35; }
+  .home-page .section-heading { margin-bottom: 20px; }
+  .home-page .solutions-grid { grid-auto-columns: min(78vw, 292px); gap: 8px; padding-bottom: 4px; }
+  .home-page .solution-card { padding: 12px; }
+  .home-page .solution-card .service-top { margin-bottom: 9px; }
+  .home-page .solution-card h3 { margin-bottom: 5px; font-size: 16px; line-height: 1.3; }
+  .home-page .solution-card > p { font-size: 12px; line-height: 1.55; }
+  .home-page .service-tags { gap: 4px; margin-top: 8px; }
+  .home-page .service-tags span { padding: 3px 5px; font-size: 9px; }
+  .home-page .solution-card > a { min-height: 34px; margin-top: 9px; padding-block: 7px; font-size: 11px; }
+  .home-page .brief-section { margin-block: 9px; padding-block: 28px; }
+  .home-page .contact-section { padding-block: 30px; }
+  .home-page .process-card { padding: 15px 6px; }
+  .home-page .process-card h3 { font-size: 17px; }
+  .home-page .process-card p { font-size: 12px; line-height: 1.55; }
+  body:has(.home-page) .floating-whatsapp { width: 48px; height: 48px; min-height: 48px; left: 10px; bottom: 10px; }
+  body:has(.home-page) .floating-whatsapp svg { width: 22px; height: 22px; }
+  body:has(.home-page) #ward-chat-root { right: 10px; bottom: 10px; }
+  body:has(.home-page) .ward-chat__launcher { min-width: 96px; width: 96px; min-height: 48px; height: 48px; padding: 5px 9px 5px 6px; gap: 6px; }
+  body:has(.home-page) .ward-chat__launcher-icon { width: 34px; height: 34px; }
+  body:has(.home-page) .ward-chat__launcher-copy strong { font-size: 11px; }
+  body:has(.home-page) .ward-chat__launcher-copy small { font-size: 9px; }
+}
+@media (max-width: 360px) {
+  .home-page .featured-reel-card { flex-basis: 58vw; }
+  .home-page .solution-card { padding: 10px; }
+  .home-page .solution-card h3 { font-size: 15px; }
+  .home-page .solution-card > p { font-size: 11px; }
+  body:has(.home-page) .ward-chat__launcher { min-width: 86px; width: 86px; height: 48px; min-height: 48px; }
+  body:has(.home-page) .ward-chat__launcher-copy small { display: none; }
+}

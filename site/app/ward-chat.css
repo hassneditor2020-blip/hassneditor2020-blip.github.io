@@ -1,5 +1,5 @@
 #ward-chat-root {
-  --ward-accent: #d9ff43;
+  --ward-accent: #8d9cff;
   --ward-bg: #0b0b0b;
   --ward-panel: #111;
   --ward-line: #303030;
@@ -14,7 +14,7 @@
   min-width: 132px;
   min-height: 58px;
   padding: 7px 16px 7px 8px;
-  border: 1px solid rgba(217, 255, 67, .58);
+  border: 1px solid rgba(141, 156, 255, .62);
   border-radius: 999px;
   background: rgba(14, 14, 14, .96);
   color: #f4f1ea;
@@ -30,7 +30,7 @@
   transform: translateY(-4px);
   border-color: var(--ward-accent);
   background: #151515;
-  box-shadow: 0 16px 42px rgba(217, 255, 67, .14), 0 0 0 1px rgba(255, 255, 255, .04) inset;
+  box-shadow: 0 16px 42px rgba(91, 107, 222, .24), 0 0 0 1px rgba(255, 255, 255, .04) inset;
 }
 
 .ward-chat__launcher:focus-visible,
@@ -44,7 +44,7 @@
 
 #ward-chat-root[data-connection="offline"] .ward-chat__launcher {
   opacity: .6;
-  border-color: rgba(217, 255, 67, .34);
+  border-color: rgba(141, 156, 255, .34);
 }
 
 #ward-chat-root[data-connection="offline"] .ward-chat__launcher:hover {
@@ -56,14 +56,14 @@
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 1px solid rgba(217, 255, 67, .72);
+  border: 1px solid rgba(141, 156, 255, .78);
   background: #050505;
   color: var(--ward-accent);
   display: grid;
   place-items: center;
   flex: none;
   overflow: visible;
-  box-shadow: 0 0 0 4px rgba(217, 255, 67, .06), 0 0 16px rgba(217, 255, 67, .16);
+  box-shadow: 0 0 0 4px rgba(141, 156, 255, .09), 0 0 16px rgba(91, 107, 222, .28);
 }
 
 .ward-chat__launcher-icon svg {
@@ -88,7 +88,7 @@
 
 .ward-chat__launcher:hover .ward-chat__ai-icon-image {
   transform: scale(1.12);
-  filter: drop-shadow(0 0 5px rgba(255, 220, 0, .34));
+  filter: drop-shadow(0 0 7px rgba(141, 156, 255, .5));
 }
 
 .ward-chat__status-dot {
@@ -101,7 +101,7 @@
   border: 2px solid #0e0e0e;
   border-radius: 50%;
   background: var(--ward-accent);
-  box-shadow: 0 0 7px rgba(217, 255, 67, .52);
+  box-shadow: 0 0 7px rgba(141, 156, 255, .6);
 }
 
 #ward-chat-root[data-connection="unknown"] .ward-chat__status-dot,
