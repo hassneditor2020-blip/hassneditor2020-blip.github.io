@@ -1,0 +1,189 @@
+/* Midnight Gold system for every internal page. The home page keeps its own cinematic treatment. */
+.site:not(.home-page) {
+  --sub-bg:#0b0c0a;
+  --sub-panel:#11140f;
+  --sub-panel-soft:#151a12;
+  --sub-line:#2d3527;
+  --sub-line-strong:#485934;
+  --sub-copy:#c8cec0;
+  --sub-muted:#929b87;
+  background:
+    radial-gradient(circle at 86% 0%, rgba(217,255,67,.055), transparent 28rem),
+    linear-gradient(180deg,#0a0b09 0%,#0b0c0a 55%,#090a08 100%);
+  color:var(--ink);
+  overflow:clip;
+}
+.site:not(.home-page) .noise { opacity:.022; }
+.site:not(.home-page) .site-header {
+  max-width:none;
+  background:rgba(10,11,9,.88);
+  border-bottom-color:var(--sub-line);
+  box-shadow:0 8px 30px rgba(0,0,0,.16);
+}
+.site:not(.home-page) .site-nav { box-shadow:0 8px 25px rgba(217,255,67,.1); }
+.site:not(.home-page) :is(h1,h2,h3) { text-wrap:balance; }
+.site:not(.home-page) :is(h1,h2,h3,p,li,dt,dd) { overflow-wrap:anywhere; }
+.site:not(.home-page) .eyebrow { color:#aeb9a0; letter-spacing:.11em; }
+.site:not(.home-page) .breadcrumbs {
+  color:#84917a;
+  border-bottom:1px solid rgba(72,89,52,.6);
+  padding-bottom:13px;
+}
+.site:not(.home-page) .breadcrumbs a:hover,
+.site:not(.home-page) .breadcrumbs a:focus-visible { color:var(--accent); }
+.site:not(.home-page) :is(.primary-button,.secondary-button) {
+  border-radius:7px;
+  box-shadow:0 8px 22px rgba(0,0,0,.18);
+}
+.site:not(.home-page) .secondary-button {
+  border-color:var(--sub-line-strong);
+  background:rgba(21,26,18,.72);
+  color:#dce5d2;
+}
+.site:not(.home-page) .secondary-button:hover,
+.site:not(.home-page) .secondary-button:focus-visible {
+  border-color:var(--accent);
+  color:var(--accent);
+  background:#182010;
+}
+
+/* Shared openings and content rails. */
+.site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section,.services-index-list,.industries-grid,.guides-index) {
+  position:relative;
+}
+.site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section) {
+  max-width:1280px;
+  margin-inline:auto;
+}
+.site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section) > :is(h1,h2) {
+  text-wrap:balance;
+}
+.site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content) {
+  background:linear-gradient(135deg,rgba(217,255,67,.035),transparent 42%);
+}
+.site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero) h1,
+.site:not(.home-page) .contact-page-intro h1,
+.site:not(.home-page) .legal-content h1 {
+  color:#f1f3eb;
+  letter-spacing:-.015em;
+}
+.site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero) > p:not(.eyebrow),
+.site:not(.home-page) .contact-page-intro > p:not(.eyebrow),
+.site:not(.home-page) .legal-intro { color:var(--sub-copy); }
+.site:not(.home-page) :is(.guide-hero,.service-hero) small { color:var(--sub-muted); }
+
+/* Cards, facts and content blocks share one material language. */
+.site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.process-card,.profile-page-facts span,.contact-page-links a,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.project-notes-grid details,.local-faq-list details,.profile-faq details,.legal-content section,.service-directory a) {
+  border-color:var(--sub-line);
+  background:linear-gradient(145deg,var(--sub-panel),#0e110d);
+  box-shadow:inset 0 1px 0 rgba(217,255,67,.025);
+}
+.site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.process-card,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.service-directory a) {
+  transition:border-color .2s ease,transform .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+.site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.service-directory a):hover {
+  border-color:var(--sub-line-strong);
+  transform:translateY(-3px);
+  box-shadow:0 14px 32px rgba(0,0,0,.2),inset 0 1px 0 rgba(217,255,67,.06);
+}
+.site:not(.home-page) :is(.service-facts,.project-facts,.profile-page-facts) strong,
+.site:not(.home-page) :is(.service-card,.pricing-card,.process-card) small,
+.site:not(.home-page) :is(.guide-related-projects a,.service-directory a) b { color:var(--accent); }
+.site:not(.home-page) :is(.service-summary,.project-summary,.guide-body p,.guide-body li,.legal-content p,.profile-page-lead,.profile-story p,.profile-expertise p,.profile-faq p) { color:var(--sub-copy); }
+.site:not(.home-page) :is(.guide-body section,.service-detail-grid article,.service-process,.local-faq-section,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.project-notes section) { border-color:var(--sub-line); }
+
+/* Consistent interactive states. */
+.site:not(.home-page) :is(a,button,summary):focus-visible {
+  outline:2px solid var(--accent);
+  outline-offset:3px;
+}
+.site:not(.home-page) :is(.contact-page-links a,.service-directory a,.guide-related-projects a) {
+  min-width:0;
+  overflow:hidden;
+}
+.site:not(.home-page) :is(.contact-page-links strong,.service-directory span,.guide-related-projects strong) { overflow-wrap:anywhere; }
+.site:not(.home-page) :is(.local-faq-list details,.profile-faq details,.project-story,.project-notes-grid details) {
+  overflow:hidden;
+  border-radius:9px;
+  background:#10140e;
+}
+.site:not(.home-page) :is(.local-faq-list summary,.profile-faq summary,.project-story > summary,.project-notes-grid summary) {
+  min-height:54px;
+  color:#e0e7d8;
+}
+.site:not(.home-page) :is(.local-faq-list details[open],.profile-faq details[open],.project-story[open],.project-notes-grid details[open]) { border-color:var(--sub-line-strong); }
+.site:not(.home-page) :is(.local-faq-list p,.profile-faq p,.project-story-content,.project-notes-content) { color:var(--sub-copy); }
+
+/* Gold rules and restrained cinematic accents. */
+.site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta) {
+  border-top-color:var(--sub-line);
+}
+.site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta)::before {
+  background:linear-gradient(90deg,var(--accent),transparent);
+}
+.site:not(.home-page) .service-hero-actions { display:flex; flex-wrap:wrap; gap:10px; }
+.site:not(.home-page) .service-hero-actions :is(a,button) { min-width:0; }
+.site:not(.home-page) .work-actions a,
+.site:not(.home-page) .project-actions a,
+.site:not(.home-page) .guide-related-resources a { color:#d8e1d0; }
+.site:not(.home-page) :is(.work-actions a,.project-actions a,.guide-related-resources a):hover { color:var(--accent); }
+.site:not(.home-page) footer { border-top-color:var(--sub-line); color:#8c9583; }
+
+@media (max-width:900px) {
+  .site:not(.home-page) .site-header { min-height:72px; padding-inline:20px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section) { max-width:100%; }
+  .site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta) { padding-inline:24px; }
+}
+
+@media (max-width:600px) {
+  .site:not(.home-page) { font-size:15px; }
+  .site:not(.home-page) .site-header { min-height:64px; padding-inline:14px; }
+  .site:not(.home-page) .site-nav { gap:2px; padding:4px; }
+  .site:not(.home-page) .site-nav a { min-height:36px; padding-inline:9px; font-size:11px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section) { padding-inline:16px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content) { padding-block:34px 28px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero) h1,
+  .site:not(.home-page) .contact-page-intro h1,
+  .site:not(.home-page) .legal-content h1 { font-size:clamp(27px,8vw,34px); line-height:1.4; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero) > p:not(.eyebrow),
+  .site:not(.home-page) .contact-page-intro > p:not(.eyebrow),
+  .site:not(.home-page) .legal-intro { font-size:14px; line-height:1.85; }
+  .site:not(.home-page) .eyebrow { font-size:9px; letter-spacing:.07em; margin-bottom:12px; }
+  .site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta) { padding:28px 16px; }
+  .site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta) h2 { font-size:24px; line-height:1.5; }
+  .site:not(.home-page) :is(.service-summary,.project-summary,.guide-body p,.guide-body li,.legal-content p,.profile-page-lead,.profile-story p,.profile-expertise p,.profile-faq p) { font-size:14px; line-height:1.9; }
+  .site:not(.home-page) .service-hero-actions { display:grid; grid-template-columns:1fr; gap:8px; }
+  .site:not(.home-page) .service-hero-actions :is(a,button) { width:100%; justify-content:center; }
+  .site:not(.home-page) :is(.contact-page-links,.pricing-grid,.guides-grid,.industries-grid) { gap:10px; }
+  .site:not(.home-page) :is(.contact-page-links a,.service-card,.pricing-card,.process-card,.guides-grid a,.industries-grid article) { padding:16px; border-radius:8px; }
+  .site:not(.home-page) :is(.contact-page-links a,.service-directory a,.guide-related-projects a) { min-height:74px; }
+  .site:not(.home-page) footer { padding-inline:16px; font-size:9px; }
+}
+
+@media (max-width:390px) {
+  .site:not(.home-page) .site-header { padding-inline:10px; }
+  .site:not(.home-page) .site-nav a { padding-inline:7px; font-size:10px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section) { padding-inline:12px; }
+  .site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta) { padding-inline:12px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content) { padding-block:28px 22px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero) h1,
+  .site:not(.home-page) .contact-page-intro h1,
+  .site:not(.home-page) .legal-content h1 { font-size:27px; }
+  .site:not(.home-page) .primary-button,
+  .site:not(.home-page) .secondary-button { min-height:44px; padding-inline:11px; font-size:12px; }
+}
+
+@media (max-width:320px) {
+  .site:not(.home-page) .site-nav a { padding-inline:5px; font-size:9px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero,.contact-page-intro,.legal-content,.profile-detail,.project-detail,.pricing-section) { padding-inline:10px; }
+  .site:not(.home-page) :is(.service-overview,.service-detail-grid,.service-process,.service-directory,.local-faq-section,.guide-related-projects,.profile-story,.profile-expertise,.profile-socials,.profile-faq,.works-cta) { padding-inline:10px; }
+  .site:not(.home-page) :is(.works-hero,.guide-hero,.service-hero) h1,
+  .site:not(.home-page) .contact-page-intro h1,
+  .site:not(.home-page) .legal-content h1 { font-size:25px; }
+  .site:not(.home-page) .eyebrow { font-size:8px; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.service-directory a) { transition:none; }
+  .site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.service-directory a):hover { transform:none; }
+}
