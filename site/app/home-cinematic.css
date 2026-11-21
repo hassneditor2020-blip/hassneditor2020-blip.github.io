@@ -629,3 +629,89 @@
   body:has(.home-page) .ward-chat__launcher { min-width: 86px; width: 86px; height: 48px; min-height: 48px; }
   body:has(.home-page) .ward-chat__launcher-copy small { display: none; }
 }
+
+/* Micro-interactions: restrained cinema cues, never movement for movement's sake. */
+.home-page .featured-reel-card,
+.home-page .solution-card,
+.home-page .digital-project-card,
+.home-page .client-review-card,
+.home-page .process-card {
+  will-change: transform;
+}
+.home-page .featured-reel-card::after,
+.home-page .solution-card::after,
+.home-page .digital-project-card::after,
+.home-page .client-review-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(112deg, transparent 18%, rgba(240, 217, 154, .18) 46%, transparent 62%);
+  transform: translateX(-135%);
+  transition: transform .65s cubic-bezier(.2,.65,.3,1);
+  z-index: 2;
+}
+@media (hover: hover) and (pointer: fine) {
+  .home-page .featured-reel-card:hover,
+  .home-page .solution-card:hover,
+  .home-page .digital-project-card:hover,
+  .home-page .client-review-card:hover,
+  .home-page .process-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(240, 217, 154, .62);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .3), 0 0 0 1px rgba(217, 184, 108, .1);
+  }
+  .home-page .featured-reel-card:hover::after,
+  .home-page .solution-card:hover::after,
+  .home-page .digital-project-card:hover::after,
+  .home-page .client-review-card:hover::after { transform: translateX(135%); }
+  .home-page .featured-reel-card:hover .featured-reel-cover { transform: scale(1.04); filter: saturate(1.05) contrast(1.03); }
+  .home-page .featured-reel-card:hover .featured-reel-play,
+  .home-page .hero-video-play:hover .play-symbol { transform: scale(1.06); box-shadow: 0 0 0 10px rgba(217,184,108,.12), 0 0 28px rgba(217,184,108,.22); }
+  .home-page .solution-card:hover .service-icon { transform: translateY(-2px) rotate(-3deg); background: rgba(217,184,108,.12); }
+  .home-page .service-icon { transition: transform .3s ease, background .3s ease, color .3s ease; }
+  .home-page .featured-reel-actions a:hover,
+  .home-page .solution-card > a:hover,
+  .home-page .featured-all:hover { transform: translateX(-2px); }
+}
+.home-page .featured-reel-actions a,
+.home-page .solution-card > a,
+.home-page .featured-all,
+.home-page .home-work-shortcuts a,
+.home-page .contact-card { transition: transform .28s ease, color .28s ease, background .28s ease, border-color .28s ease; }
+.home-page .featured-reel-actions a:active,
+.home-page .solution-card > a:active,
+.home-page .featured-all:active,
+.home-page .home-work-shortcuts a:active,
+.home-page .contact-card:active,
+.home-page .featured-reel-card:active,
+.home-page .solution-card:active { transform: scale(.985); }
+@media (max-width: 700px) {
+  .home-page .featured-reel-card,
+  .home-page .solution-card,
+  .home-page .digital-project-card,
+  .home-page .client-review-card,
+  .home-page .process-card { will-change: auto; }
+  .home-page .featured-reel-card:active,
+  .home-page .solution-card:active,
+  .home-page .digital-project-card:active,
+  .home-page .client-review-card:active,
+  .home-page .process-card:active { transform: scale(.985); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-page .featured-reel-card,
+  .home-page .solution-card,
+  .home-page .digital-project-card,
+  .home-page .client-review-card,
+  .home-page .process-card,
+  .home-page .featured-reel-actions a,
+  .home-page .solution-card > a,
+  .home-page .featured-all,
+  .home-page .home-work-shortcuts a,
+  .home-page .contact-card,
+  .home-page .service-icon { transition: none !important; }
+  .home-page .featured-reel-card::after,
+  .home-page .solution-card::after,
+  .home-page .digital-project-card::after,
+  .home-page .client-review-card::after { display: none; }
+}
