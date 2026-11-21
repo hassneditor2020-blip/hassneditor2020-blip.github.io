@@ -281,32 +281,40 @@
   .home-page .featured-reels, .home-page .home-work-shortcuts, .home-page .trust-stats,
   .home-page .services-section, .home-page .digital-projects, .home-page .process-section,
   .home-page .testimonials-section, .home-page .brief-section, .home-page .faq-section,
-  .home-page .contact-section, .home-page .home-profile-links, .home-page > .home-footer { padding-inline: 20px; }
-  .home-page .featured-reels { padding-top: 48px; padding-bottom: 28px; }
+  .home-page .contact-section, .home-page .home-profile-links, .home-page > .home-footer { padding-inline: 18px; }
+  .home-page .featured-reels { padding-top: 42px; padding-bottom: 24px; }
   .home-page .featured-heading { flex-direction: row; align-items: end; }
   .home-page .featured-heading h2 { font-size: 32px; }
   .home-page .featured-heading .eyebrow { font-size: 9px; }
-  .home-page .featured-intro { font-size: 13px; margin-bottom: 16px; }
-  .home-page .featured-reel-controls { display: flex; justify-content: space-between; margin-bottom: 13px; }
-  .home-page .featured-reel-list { gap: 12px; margin-inline: -20px; padding-inline: 20px; }
-  .home-page .featured-reel-card { flex: 0 0 min(72vw, 280px); }
-  .home-page .featured-reel-copy { padding: 15px; }
-  .home-page .featured-reel-copy h3 { font-size: 17px; }
-  .home-page .home-work-shortcuts { padding-top: 12px; padding-bottom: 48px; }
+  .home-page .featured-intro { font-size: 12px; margin-bottom: 14px; }
+  .home-page .featured-reel-controls { display: flex; justify-content: space-between; margin-bottom: 11px; }
+  .home-page .featured-reel-list { gap: 10px; margin-inline: -18px; padding-inline: 18px; }
+  .home-page .featured-reel-card { flex: 0 0 min(64vw, 230px); }
+  .home-page .featured-reel-copy { padding: 12px; }
+  .home-page .featured-reel-copy > small { font-size: 10px; }
+  .home-page .featured-reel-copy h3 { margin: 5px 0 4px; font-size: 16px; line-height: 1.4; }
+  .home-page .featured-reel-copy p { margin: 0 0 9px; font-size: 11px; line-height: 1.55; }
+  .home-page .featured-reel-actions a { min-height: 38px; padding: 8px 9px; font-size: 11px; }
+  .home-page .home-work-shortcuts { padding-top: 10px; padding-bottom: 42px; }
   .home-page .home-work-shortcuts > div { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .home-page .home-work-shortcuts h2 { font-size: 18px; }
-  .home-page .kokab-feature { max-width: none; grid-template-columns: 95px minmax(0, 1fr); margin: 0 20px 48px; padding: 15px; gap: 15px; }
+  .home-page .kokab-feature { max-width: none; grid-template-columns: 88px minmax(0, 1fr); margin: 0 18px 42px; padding: 13px; gap: 12px; }
   .home-page .kokab-feature-image { height: 150px; }
   .home-page .trust-stats { padding-bottom: 48px; }
   .home-page .trust-stat { min-height: 112px; padding: 16px; }
   .home-page .trust-stat strong { font-size: 27px; }
-  .home-page :is(.services-section, .digital-projects, .process-section, .testimonials-section, .faq-section) { padding-block: 48px; }
+  .home-page :is(.services-section, .digital-projects, .process-section, .testimonials-section, .faq-section) { padding-block: 42px; }
   .home-page > section .section-heading h2, .home-page > .brief-section h2,
   .home-page .testimonials-heading h2, .home-page .digital-projects-heading h2 { font-size: 29px; line-height: 1.45; }
-  .home-page .solution-card { min-height: 0; padding: 20px; }
-  .home-page .solution-card .service-top { margin-bottom: 18px; }
-  .home-page .brief-section { margin-block: 16px; padding-block: 42px; }
-  .home-page .contact-section { padding-block: 48px; }
+  .home-page .solution-card { min-height: 0; padding: 16px; }
+  .home-page .solution-card .service-top { margin-bottom: 12px; }
+  .home-page .solution-card h3 { margin-bottom: 7px; font-size: 18px; line-height: 1.4; }
+  .home-page .solution-card > p { font-size: 13px; line-height: 1.7; }
+  .home-page .service-tags { gap: 5px; margin-top: 11px; }
+  .home-page .service-tags span { padding: 4px 7px; font-size: 10px; }
+  .home-page .solution-card > a { min-height: 40px; margin-top: 12px; padding-block: 9px; font-size: 12px; }
+  .home-page .brief-section { margin-block: 14px; padding-block: 38px; }
+  .home-page .contact-section { padding-block: 42px; }
 }
 
 /* The original carousel becomes scrollable at 600px, not 700px. */
