@@ -12,6 +12,7 @@ import "./kokab-fodool.css";
 import "./portfolio-refresh.css";
 import "./watch-pages.css";
 import "./search-growth.css";
+import "./subpages-midnight-gold.css";
 import VideoViewerProvider from "./VideoViewer";
 import FloatingWhatsApp from "./FloatingWhatsApp";
 import "./ward-chat.css";
