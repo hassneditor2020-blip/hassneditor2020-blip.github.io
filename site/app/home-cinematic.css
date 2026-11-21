@@ -715,3 +715,101 @@
   .home-page .digital-project-card::after,
   .home-page .client-review-card::after { display: none; }
 }
+
+
+/* Midnight Gold v2 — final homepage polish: hierarchy, focus and mobile comfort. */
+.home-page .unified-header {
+  position: sticky;
+  top: 0;
+  z-index: 70;
+}
+.home-page :is(a, button, summary):focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 4px;
+}
+.home-page .hero,
+.home-page .featured-reels,
+.home-page .services-section,
+.home-page .process-section,
+.home-page .testimonials-section,
+.home-page .faq-section { scroll-margin-top: 92px; }
+.home-page .unified-header .site-nav a[aria-current="page"] {
+  color: var(--accent-soft);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+.home-page .floating-whatsapp {
+  border-color: rgba(240, 217, 154, .78);
+  background: linear-gradient(135deg, #eed48e, #c3994c);
+  color: #17130a;
+  box-shadow: 0 12px 30px rgba(180, 134, 48, .28), inset 0 1px rgba(255,255,255,.55);
+}
+.home-page .floating-whatsapp:hover,
+.home-page .floating-whatsapp:focus-visible {
+  filter: brightness(1.08);
+  transform: translateY(-3px);
+}
+@media (max-width: 700px) {
+  .home-page .unified-header { backdrop-filter: blur(14px); }
+  .home-page .hero { scroll-margin-top: 76px; }
+  .home-page .hero-copy > .eyebrow { letter-spacing: .11em; }
+  .home-page .hero-actions .primary-button,
+  .home-page .hero-actions .secondary-button { border-radius: 6px; }
+  .home-page .featured-reel-list,
+  .home-page .solutions-grid { scrollbar-width: thin; scrollbar-color: rgba(217,184,108,.58) transparent; }
+  .home-page .featured-reel-list::-webkit-scrollbar,
+  .home-page .solutions-grid::-webkit-scrollbar { height: 4px; }
+  .home-page .featured-reel-list::-webkit-scrollbar-thumb,
+  .home-page .solutions-grid::-webkit-scrollbar-thumb { background: rgba(217,184,108,.58); border-radius: 99px; }
+  .home-page .floating-whatsapp { box-shadow: 0 10px 24px rgba(180, 134, 48, .3), inset 0 1px rgba(255,255,255,.55); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-page .floating-whatsapp:hover,
+  .home-page .floating-whatsapp:focus-visible { transform: none; }
+}
+
+
+/* Keep the homepage header tone identical in idle, hover, focus and menu states. */
+.home-page .unified-header,
+.home-page .unified-header:hover,
+.home-page .unified-header:focus-within,
+.home-page .unified-header.is-scrolled {
+  background: rgba(8, 10, 13, .78);
+  background-color: rgba(8, 10, 13, .78);
+  transition: none;
+}
+.home-page .unified-header .site-nav,
+.home-page .unified-header .site-nav.open,
+.home-page .unified-header .header-tools,
+.home-page .unified-header .language-toggle,
+.home-page .unified-header .mobile-menu-toggle {
+  background-color: transparent;
+}
+@media (max-width: 700px) {
+  .home-page .unified-header .site-nav.open,
+  .home-page .unified-header .site-nav.open:hover,
+  .home-page .unified-header .site-nav.open:focus-within {
+    background: rgba(8, 10, 13, .78);
+    background-color: rgba(8, 10, 13, .78);
+  }
+}
+
+
+/* Floating WhatsApp is mounted beside the page root, so scope it through :has(). */
+body:has(.home-page) .floating-whatsapp {
+  border-color: rgba(240, 217, 154, .78);
+  background: linear-gradient(135deg, #eed48e, #c3994c);
+  color: #17130a;
+  box-shadow: 0 12px 30px rgba(180, 134, 48, .28), inset 0 1px rgba(255,255,255,.55);
+}
+body:has(.home-page) .floating-whatsapp:hover,
+body:has(.home-page) .floating-whatsapp:focus-visible {
+  filter: brightness(1.08);
+  transform: translateY(-3px);
+}
+@media (max-width: 700px) {
+  body:has(.home-page) .floating-whatsapp { box-shadow: 0 10px 24px rgba(180, 134, 48, .3), inset 0 1px rgba(255,255,255,.55); }
+}
+@media (prefers-reduced-motion: reduce) {
+  body:has(.home-page) .floating-whatsapp:hover,
+  body:has(.home-page) .floating-whatsapp:focus-visible { transform: none; }
+}
