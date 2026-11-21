@@ -1,4 +1,4 @@
-.service-planning,.scope-comparison,.kokab-evidence { margin:36px 0; padding:32px; border:1px solid #34352e; background:linear-gradient(130deg,rgba(217,255,67,.035),transparent 65%); }
+.service-planning,.scope-comparison,.kokab-evidence { margin:36px 0; padding:32px; border:1px solid #34352e; background:linear-gradient(130deg,rgba(217,184,108,.035),transparent 65%); }
 .service-planning { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); gap:40px; }
 .service-planning { max-width:1212px; margin-inline:auto; }
 .scope-comparison { max-width:1052px; margin-inline:auto; }
@@ -36,15 +36,15 @@
 .service-project-notes{max-width:1280px;margin:auto;padding:30px 34px 40px;scroll-margin-top:110px}
 .service-project-notes .section-heading{margin-bottom:12px}
 .service-project-notes h2{font-size:clamp(23px,2.7vw,32px);line-height:1.5}
-.project-notes-intro{max-width:760px;font-size:14px;line-height:1.9;color:#b5bdab;margin:0 0 22px}
+.project-notes-intro{max-width:760px;font-size:14px;line-height:1.9;color:#d9b86c;margin:0 0 22px}
 .project-notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
-.project-notes-grid details{border:1px solid #343c2c;border-radius:9px;background:#11160e;overflow:hidden}
+.project-notes-grid details{border:1px solid #38352f;border-radius:9px;background:#11160e;overflow:hidden}
 .project-notes-grid summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:19px 20px;cursor:pointer;min-height:104px}
 .project-notes-grid summary::-webkit-details-marker{display:none}
-.project-notes-grid summary small{display:block;color:#b0bd9c;font-size:11px;line-height:1.8;margin-bottom:6px}
+.project-notes-grid summary small{display:block;color:#d9b86c;font-size:11px;line-height:1.8;margin-bottom:6px}
 .project-notes-grid summary strong{display:block;font-size:16px;line-height:1.7}
 .project-notes-grid summary>b{font-size:23px;font-weight:400;color:var(--accent);flex:none}
-.project-notes-grid details[open] summary{border-bottom:1px solid #343c2c}
+.project-notes-grid details[open] summary{border-bottom:1px solid #38352f}
 .project-notes-grid details[open] summary>b{transform:rotate(45deg)}
 .project-notes-grid summary:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
 .project-notes-content{padding:0 20px 18px}

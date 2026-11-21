@@ -5,10 +5,10 @@
   --sub-bg:#0b0c0a;
   --sub-panel:#11140f;
   --sub-panel-soft:#151a12;
-  --sub-line:#2d3527;
-  --sub-line-strong:#485934;
+  --sub-line:#312e28;
+  --sub-line-strong:#6f5d3a;
   --sub-copy:#c8cec0;
-  --sub-muted:#929b87;
+  --sub-muted:#d9b86c;
   background:
     radial-gradient(circle at 86% 0%, rgba(217,184,108,.055), transparent 28rem),
     linear-gradient(180deg,#0a0b09 0%,#0b0c0a 55%,#090a08 100%);
@@ -64,16 +64,16 @@
 .site:not(.home-page) .language-toggle {
   min-width:50px;
   height:40px;
-  border-color:#48533f;
+  border-color:#d9b86c;
   border-radius:5px;
   background:rgba(18,21,17,.72);
   color:#f0d99a;
 }
 .site:not(.home-page) :is(h1,h2,h3) { text-wrap:balance; }
 .site:not(.home-page) :is(h1,h2,h3,p,li,dt,dd) { overflow-wrap:anywhere; }
-.site:not(.home-page) .eyebrow { color:#aeb9a0; letter-spacing:.11em; }
+.site:not(.home-page) .eyebrow { color:#d9b86c; letter-spacing:.11em; }
 .site:not(.home-page) .breadcrumbs {
-  color:#84917a;
+  color:#d9b86c;
   border-bottom:1px solid rgba(72,89,52,.6);
   padding-bottom:13px;
 }
@@ -86,7 +86,7 @@
 .site:not(.home-page) .secondary-button {
   border-color:var(--sub-line-strong);
   background:rgba(21,26,18,.72);
-  color:#dce5d2;
+  color:#d9b86c;
 }
 .site:not(.home-page) .secondary-button:hover,
 .site:not(.home-page) .secondary-button:focus-visible {
@@ -173,9 +173,9 @@
 .site:not(.home-page) .service-hero-actions :is(a,button) { min-width:0; }
 .site:not(.home-page) .work-actions a,
 .site:not(.home-page) .project-actions a,
-.site:not(.home-page) .guide-related-resources a { color:#d8e1d0; }
+.site:not(.home-page) .guide-related-resources a { color:#dcd9d3; }
 .site:not(.home-page) :is(.work-actions a,.project-actions a,.guide-related-resources a):hover { color:var(--accent); }
-.site:not(.home-page) footer { border-top-color:var(--sub-line); color:#8c9583; }
+.site:not(.home-page) footer { border-top-color:var(--sub-line); color:#d9b86c; }
 
 /* Internal pages use the same gold system as the Midnight Gold homepage. */
 .site:not(.home-page) .language-toggle:hover { background:rgba(217,184,108,.07); }
