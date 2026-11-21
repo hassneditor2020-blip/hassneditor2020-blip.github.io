@@ -1,9 +1,9 @@
 :HL["/_next/static/css/ff2b4ecc550146c9.css","style"]
-:HL["/_next/static/css/4cd960bc488e225d.css","style"]
-:HL["/_next/static/css/bbbc6e7358899548.css","style"]
+:HL["/_next/static/css/e82f12fa3c9aaf99.css","style"]
+:HL["/_next/static/css/c75b61c97d23fd7e.css","style"]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-400-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-500-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/hassn-logo.png","image"]
 :HL["/hassn-editor-cv.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(arabic)","param":null,"prefetchHints":16,"slots":{"children":{"name":"about-hassn-editor","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZPCnMRqTcoerBiTmZWP9c"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(arabic)","param":null,"prefetchHints":16,"slots":{"children":{"name":"about-hassn-editor","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"zYY3zooDerZCAmChrOD5Y"}

@@ -245,10 +245,10 @@
   overflow: hidden;
   background: var(--ward-bg);
   --chat--color--primary: var(--ward-accent);
-  --chat--color--primary-shade-50: #e5ff78;
-  --chat--color--primary--shade-100: #c7ea39;
+  --chat--color--primary-shade-50: #f0d99a;
+  --chat--color--primary--shade-100: #d9b86c;
   --chat--color--secondary: var(--ward-accent);
-  --chat--color-secondary-shade-50: #e5ff78;
+  --chat--color-secondary-shade-50: #f0d99a;
   --chat--color-white: #171717;
   --chat--color-light: #0c0c0c;
   --chat--color-light-shade-50: #191919;
@@ -287,7 +287,7 @@
   --chat--input--container--padding: 2px;
   --chat--input--send--button--background: var(--ward-accent);
   --chat--input--send--button--color: #090909;
-  --chat--input--send--button--background-hover: #e5ff78;
+  --chat--input--send--button--background-hover: #f0d99a;
   --chat--input--send--button--color-hover: #090909;
 }
 
@@ -467,7 +467,7 @@
 }
 
 .ward-chat__offline-actions a:hover {
-  background: #e5ff78;
+  background: #f0d99a;
 }
 
 .ward-chat__offline-actions button:hover {
