@@ -5,4 +5,4 @@
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/site-fonts/ibm-plex-sans-arabic-arabic-500-normal.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/hassn-logo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(arabic)","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"swiss-product-story-ad","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"uIOGY9zT1cWqGVH96fWsL"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(arabic)","param":null,"prefetchHints":16,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"swiss-product-story-ad","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"RaSrtAVkfFYH4FBv8naaV"}
