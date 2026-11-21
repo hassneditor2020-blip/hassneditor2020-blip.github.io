@@ -1,0 +1,606 @@
+#ward-chat-root {
+  --ward-accent: #d9ff43;
+  --ward-bg: #0b0b0b;
+  --ward-panel: #111;
+  --ward-line: #303030;
+  position: fixed;
+  z-index: 90;
+  inset: auto 24px 24px auto;
+  font-family: "IBM Plex Sans Arabic", "Space Grotesk", sans-serif;
+}
+
+.ward-chat__launcher {
+  position: relative;
+  min-width: 132px;
+  min-height: 58px;
+  padding: 7px 16px 7px 8px;
+  border: 1px solid rgba(217, 255, 67, .58);
+  border-radius: 999px;
+  background: rgba(14, 14, 14, .96);
+  color: #f4f1ea;
+  box-shadow: 0 12px 38px rgba(0, 0, 0, .5), 0 0 0 1px rgba(255, 255, 255, .025) inset;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease, opacity .2s ease;
+}
+
+.ward-chat__launcher:hover {
+  transform: translateY(-4px);
+  border-color: var(--ward-accent);
+  background: #151515;
+  box-shadow: 0 16px 42px rgba(217, 255, 67, .14), 0 0 0 1px rgba(255, 255, 255, .04) inset;
+}
+
+.ward-chat__launcher:focus-visible,
+.ward-chat__close:focus-visible,
+.ward-chat__state button:focus-visible,
+.ward-chat__offline a:focus-visible,
+.ward-chat__offline button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+#ward-chat-root[data-connection="offline"] .ward-chat__launcher {
+  opacity: .6;
+  border-color: rgba(217, 255, 67, .34);
+}
+
+#ward-chat-root[data-connection="offline"] .ward-chat__launcher:hover {
+  opacity: .72;
+}
+
+.ward-chat__launcher-icon {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(217, 255, 67, .72);
+  background: #050505;
+  color: var(--ward-accent);
+  display: grid;
+  place-items: center;
+  flex: none;
+  overflow: visible;
+  box-shadow: 0 0 0 4px rgba(217, 255, 67, .06), 0 0 16px rgba(217, 255, 67, .16);
+}
+
+.ward-chat__launcher-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ward-chat__ai-icon-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: scale(1.08);
+  transition: transform .2s ease, filter .2s ease;
+  user-select: none;
+}
+
+.ward-chat__launcher:hover .ward-chat__ai-icon-image {
+  transform: scale(1.12);
+  filter: drop-shadow(0 0 5px rgba(255, 220, 0, .34));
+}
+
+.ward-chat__status-dot {
+  position: absolute;
+  z-index: 2;
+  right: -1px;
+  bottom: 1px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid #0e0e0e;
+  border-radius: 50%;
+  background: var(--ward-accent);
+  box-shadow: 0 0 7px rgba(217, 255, 67, .52);
+}
+
+#ward-chat-root[data-connection="unknown"] .ward-chat__status-dot,
+#ward-chat-root[data-connection="checking"] .ward-chat__status-dot {
+  background: #d2ad36;
+  box-shadow: 0 0 7px rgba(210, 173, 54, .32);
+}
+
+#ward-chat-root[data-connection="offline"] .ward-chat__status-dot {
+  background: #77756f;
+  box-shadow: none;
+}
+
+.ward-chat__launcher-copy {
+  direction: ltr;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.ward-chat__launcher-copy strong {
+  font: 800 14px/1.2 "Space Grotesk", sans-serif;
+  letter-spacing: .08em;
+}
+
+.ward-chat__launcher-copy small {
+  color: #aaa8a2;
+  font-size: 11px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.ward-chat__panel {
+  position: absolute;
+  right: 0;
+  bottom: 74px;
+  width: min(404px, calc(100vw - 48px));
+  height: min(650px, calc(100dvh - 126px));
+  min-height: 450px;
+  border: 1px solid #383838;
+  border-radius: 18px;
+  background: var(--ward-bg);
+  color: #f4f1ea;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, .72), 0 0 0 1px rgba(255, 255, 255, .025) inset;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(14px) scale(.975);
+  transform-origin: 100% 100%;
+  transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+}
+
+#ward-chat-root[data-open="true"] .ward-chat__panel {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.ward-chat__header {
+  min-height: 74px;
+  padding: 14px 15px;
+  border-bottom: 1px solid var(--ward-line);
+  background: linear-gradient(135deg, rgba(217, 255, 67, .085), transparent 55%), #101010;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 40px;
+  align-items: center;
+  gap: 11px;
+}
+
+.ward-chat__mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--ward-accent);
+  color: #090909;
+  display: grid;
+  place-items: center;
+  font: 900 18px/1 "Space Grotesk", sans-serif;
+  box-shadow: 0 8px 24px rgba(217, 255, 67, .12);
+}
+
+.ward-chat__identity {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-align: start;
+}
+
+.ward-chat__identity strong {
+  font: 800 17px/1.2 "Space Grotesk", sans-serif;
+  letter-spacing: .08em;
+}
+
+.ward-chat__identity small {
+  color: #aaa8a2;
+  font: 500 12px/1.45 "Space Grotesk", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ward-chat__close {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #393939;
+  border-radius: 12px;
+  background: #171717;
+  color: #d7d4cd;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: border-color .18s ease, color .18s ease, background .18s ease;
+}
+
+.ward-chat__close:hover {
+  border-color: var(--ward-accent);
+  color: var(--ward-accent);
+  background: #1b1b1b;
+}
+
+.ward-chat__close svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+.ward-chat__embed {
+  width: 100%;
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+  background: var(--ward-bg);
+  --chat--color--primary: var(--ward-accent);
+  --chat--color--primary-shade-50: #e5ff78;
+  --chat--color--primary--shade-100: #c7ea39;
+  --chat--color--secondary: var(--ward-accent);
+  --chat--color-secondary-shade-50: #e5ff78;
+  --chat--color-white: #171717;
+  --chat--color-light: #0c0c0c;
+  --chat--color-light-shade-50: #191919;
+  --chat--color-light-shade-100: #333;
+  --chat--color-medium: #595959;
+  --chat--color-dark: #f4f1ea;
+  --chat--color-disabled: #676767;
+  --chat--color-typing: var(--ward-accent);
+  --chat--spacing: .85rem;
+  --chat--border-radius: 12px;
+  --chat--font-family: "IBM Plex Sans Arabic", "Space Grotesk", sans-serif;
+  --chat--message--font-size: .94rem;
+  --chat--message--padding: .78rem .9rem;
+  --chat--message-line-height: 1.65;
+  --chat--message--margin-bottom: .55rem;
+  --chat--message--bot--background: #181818;
+  --chat--message--bot--color: #f4f1ea;
+  --chat--message--bot--border: 1px solid #2c2c2c;
+  --chat--message--user--background: var(--ward-accent);
+  --chat--message--user--color: #090909;
+  --chat--message--user--border: 1px solid var(--ward-accent);
+  --chat--messages-list--padding: 14px;
+  --chat--body--background: #0c0c0c;
+  --chat--footer--background: #101010;
+  --chat--footer--color: #f4f1ea;
+  --chat--footer--border-top: 1px solid #303030;
+  --chat--footer--padding: 11px;
+  --chat--textarea--height: 48px;
+  --chat--textarea--max-height: 132px;
+  --chat--input--font-size: 15px;
+  --chat--input--background: #171717;
+  --chat--input--text-color: #f4f1ea;
+  --chat--input--container--background: #171717;
+  --chat--input--container--border: 1px solid #383838;
+  --chat--input--container--border-radius: 14px;
+  --chat--input--container--padding: 2px;
+  --chat--input--send--button--background: var(--ward-accent);
+  --chat--input--send--button--color: #090909;
+  --chat--input--send--button--background-hover: #e5ff78;
+  --chat--input--send--button--color-hover: #090909;
+}
+
+#ward-chat-embed .chat-layout > .chat-header {
+  display: none !important;
+}
+
+#ward-chat-embed .chat-layout,
+#ward-chat-embed .chat-wrapper,
+#ward-chat-embed .chat-body {
+  min-height: 0;
+}
+
+#ward-chat-embed .chat-message {
+  max-width: 86%;
+  text-align: start;
+  direction: inherit;
+  unicode-bidi: plaintext;
+  overflow-wrap: anywhere;
+}
+
+#ward-chat-embed .chat-message p,
+#ward-chat-embed .n8n-markdown {
+  text-align: start;
+  direction: inherit;
+  unicode-bidi: plaintext;
+}
+
+#ward-chat-embed .chat-message-from-bot {
+  border-end-start-radius: 3px;
+}
+
+#ward-chat-embed .chat-message-from-user {
+  border-end-end-radius: 3px;
+}
+
+#ward-chat-embed .chat-inputs textarea {
+  caret-color: var(--ward-accent);
+  direction: inherit;
+  text-align: start;
+}
+
+#ward-chat-embed .chat-inputs textarea::placeholder {
+  color: #85837e;
+  opacity: 1;
+}
+
+#ward-chat-embed .chat-input-send-button {
+  width: 42px;
+  height: 42px;
+  margin: 3px;
+  border-radius: 11px;
+}
+
+#ward-chat-embed .chat-input-send-button[disabled] {
+  background: #242424;
+  color: #696969;
+}
+
+#ward-chat-root[dir="rtl"] #ward-chat-embed .chat-inputs,
+#ward-chat-root[dir="rtl"] #ward-chat-embed .chat-message,
+#ward-chat-root[dir="rtl"] #ward-chat-embed .n8n-markdown {
+  direction: rtl;
+}
+
+#ward-chat-root[dir="ltr"] #ward-chat-embed .chat-inputs,
+#ward-chat-root[dir="ltr"] #ward-chat-embed .chat-message,
+#ward-chat-root[dir="ltr"] #ward-chat-embed .n8n-markdown {
+  direction: ltr;
+}
+
+.ward-chat__state {
+  position: absolute;
+  inset: 74px 0 0;
+  z-index: 3;
+  padding: 30px;
+  background: var(--ward-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ward-chat__state p {
+  margin: 13px 0 0;
+  color: #a6a49d;
+  font-size: 14px;
+}
+
+.ward-chat__state strong {
+  font-size: 17px;
+}
+
+.ward-chat__offline {
+  position: absolute;
+  inset: 74px 0 0;
+  z-index: 5;
+  padding: 34px 28px;
+  background:
+    radial-gradient(circle at 50% 28%, rgba(217, 255, 67, .08), transparent 34%),
+    var(--ward-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ward-chat__offline-indicator {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 20px;
+  border: 1px solid #353535;
+  border-radius: 50%;
+  background: #171717;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .3);
+}
+
+.ward-chat__offline-indicator i {
+  width: 12px;
+  height: 12px;
+  border: 3px solid #171717;
+  border-radius: 50%;
+  background: #77756f;
+  box-shadow: 0 0 0 1px #77756f;
+}
+
+.ward-chat__offline strong {
+  font-size: 19px;
+  line-height: 1.45;
+}
+
+.ward-chat__offline p {
+  max-width: 310px;
+  margin: 10px 0 0;
+  color: #b7b4ad;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.ward-chat__offline-actions {
+  width: min(100%, 300px);
+  margin-top: 24px;
+  display: grid;
+  gap: 9px;
+}
+
+.ward-chat__offline-actions a,
+.ward-chat__offline-actions button {
+  min-height: 48px;
+  padding: 0 17px;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.ward-chat__offline-actions a {
+  border: 1px solid var(--ward-accent);
+  background: var(--ward-accent);
+  color: #090909;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  text-decoration: none;
+}
+
+.ward-chat__offline-actions button {
+  border: 1px solid #3a3a3a;
+  background: #171717;
+  color: #d8d5ce;
+}
+
+.ward-chat__offline-actions a:hover {
+  background: #e5ff78;
+}
+
+.ward-chat__offline-actions button:hover {
+  border-color: #66635c;
+  background: #1d1d1d;
+}
+
+.ward-chat__typing {
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid #303030;
+  border-radius: 999px;
+  background: #171717;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ward-chat__typing i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ward-accent);
+  animation: wardTyping .9s ease-in-out infinite;
+}
+
+.ward-chat__typing i:nth-child(2) { animation-delay: .15s; }
+.ward-chat__typing i:nth-child(3) { animation-delay: .3s; }
+
+.ward-chat__state--error button {
+  min-height: 42px;
+  margin-top: 18px;
+  padding: 0 18px;
+  border: 1px solid var(--ward-accent);
+  border-radius: 10px;
+  background: var(--ward-accent);
+  color: #090909;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@keyframes wardTyping {
+  0%, 60%, 100% { transform: translateY(0); opacity: .45; }
+  30% { transform: translateY(-5px); opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  #ward-chat-root {
+    inset: auto 12px 12px auto;
+  }
+
+  .ward-chat__launcher {
+    min-width: 58px;
+    width: 58px;
+    min-height: 58px;
+    height: 58px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .ward-chat__launcher-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .ward-chat__launcher-copy {
+    display: none;
+  }
+
+  .ward-chat__panel {
+    position: fixed;
+    inset: 10px 10px 80px;
+    width: auto;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    border-radius: 16px;
+    transform-origin: 100% 100%;
+  }
+
+  .ward-chat__header {
+    min-height: 68px;
+    padding: 11px 12px;
+  }
+
+  .ward-chat__mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ward-chat__identity small {
+    font-size: 11px;
+  }
+
+  .ward-chat__state {
+    inset-block-start: 68px;
+  }
+
+  .ward-chat__offline {
+    inset-block-start: 68px;
+    padding: 24px 20px;
+  }
+
+  .ward-chat__offline-indicator {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+  }
+
+  .ward-chat__offline p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  #ward-chat-embed .chat-message {
+    max-width: 90%;
+  }
+}
+
+@media (max-height: 590px) and (min-width: 601px) {
+  .ward-chat__panel {
+    height: calc(100dvh - 112px);
+    min-height: 380px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ward-chat__launcher,
+  .ward-chat__panel,
+  .ward-chat__ai-icon-image,
+  .ward-chat__typing i {
+    transition: none;
+    animation: none;
+  }
+}

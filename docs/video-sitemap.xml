@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+    <loc>https://hassneditor.com/showreel</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/hassn-editor-showreel-cover.jpg</video:thumbnail_loc>
+      <video:title>الفيديو التعريفي لحسن إيديتور</video:title>
+      <video:description>فيديو تعريفي مختصر يعرض خدمات حسن إيديتور في المونتاج وإنتاج المحتوى والموشن جرافيك وفيديوهات الذكاء الاصطناعي داخل الإمارات.</video:description>
+      <video:content_loc>https://hassneditor.com/hassn-editor-showreel.mp4</video:content_loc>
+      <video:publication_date>2026-08-03</video:publication_date>
+      <video:duration>20</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/showreel</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/hassn-editor-showreel-cover.jpg</video:thumbnail_loc>
+      <video:title>HASSN EDITOR Introduction Showreel</video:title>
+      <video:description>A concise introduction to HASSN EDITOR video editing, full content production, motion graphics and AI video services in the UAE.</video:description>
+      <video:content_loc>https://hassneditor.com/hassn-editor-showreel.mp4</video:content_loc>
+      <video:publication_date>2026-08-03</video:publication_date>
+      <video:duration>20</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/kokab-fodool-arabic-letter-baa</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/eD2G0v9IdJc.jpg</video:thumbnail_loc>
+      <video:title>حرف الباء مع لُمعة — كوكب فضول</video:title>
+      <video:description>حلقة قصيرة لتعليم حرف الباء بالفتحة وربطه بكلمة «بطّة»، ضمن عالم كرتوني ملوّن وشخصية لُمعة.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/eD2G0v9IdJc</video:player_loc>
+      <video:publication_date>2026-10-29T04:11:13-07:00</video:publication_date>
+      <video:duration>9</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/kokab-fodool-arabic-letter-baa</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/eD2G0v9IdJc.jpg</video:thumbnail_loc>
+      <video:title>Arabic Letter Baa with Lumaa — Kokab Fodool</video:title>
+      <video:description>An Arabic letter Baa episode from Kokab Fodool, showcasing AI character direction, clear Arabic pronunciation and educational video editing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/eD2G0v9IdJc</video:player_loc>
+      <video:publication_date>2026-10-29T04:11:13-07:00</video:publication_date>
+      <video:duration>9</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/kokab-fodool-mishaal-environment</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/0Zw-tt_f4sA.jpg</video:thumbnail_loc>
+      <video:title>كيف نحافظ على بيئتنا؟ — مغامرات مشعال</video:title>
+      <video:description>مغامرة تعليمية مع مشعال تطرح سؤالًا عن حماية البيئة وتدعو الطفل إلى التفكير في أثر التصرفات اليومية.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/0Zw-tt_f4sA</video:player_loc>
+      <video:publication_date>2026-10-29T00:33:18-07:00</video:publication_date>
+      <video:duration>33</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/kokab-fodool-mishaal-environment</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/0Zw-tt_f4sA.jpg</video:thumbnail_loc>
+      <video:title>How Can We Protect Our Environment? — Mishaal’s Adventures</video:title>
+      <video:description>Mishaal’s environmental adventure from Kokab Fodool: connected AI scenes, a consistent Emirati character, Arabic dialogue and educational storytelling.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/0Zw-tt_f4sA</video:player_loc>
+      <video:publication_date>2026-10-29T00:33:18-07:00</video:publication_date>
+      <video:duration>33</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/kokab-fodool-what-if-no-gravity</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/MsXzLeIvUf8.jpg</video:thumbnail_loc>
+      <video:title>ماذا لو اختفت الجاذبية فجأة؟ — كوكب فضول</video:title>
+      <video:description>مشهد تخيلي قصير يحوّل سؤال اختفاء الجاذبية إلى عالم تطفو فيه الأشياء، ضمن سلسلة «ماذا لو؟».</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/MsXzLeIvUf8</video:player_loc>
+      <video:publication_date>2026-11-03T20:25:20-08:00</video:publication_date>
+      <video:duration>9</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/kokab-fodool-what-if-no-gravity</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/MsXzLeIvUf8.jpg</video:thumbnail_loc>
+      <video:title>What If Gravity Suddenly Disappeared? — Kokab Fodool</video:title>
+      <video:description>A Kokab Fodool What If episode turning disappearing gravity into an imaginative AI-assisted scene, with Arabic dialogue, motion direction and editing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/MsXzLeIvUf8</video:player_loc>
+      <video:publication_date>2026-11-03T20:25:20-08:00</video:publication_date>
+      <video:duration>9</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/kokab-fodool-guess-missing-car-part</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/7qWu7UPMd_c.jpg</video:thumbnail_loc>
+      <video:title>ما الشيء الناقص في السيارة؟ — خمّن مع فضّول</video:title>
+      <video:description>لغز بصري قصير يدعو الطفل إلى ملاحظة الجزء الناقص في سيارة فضّول، ضمن سلسلة تعليمية قائمة على التخمين.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/7qWu7UPMd_c</video:player_loc>
+      <video:publication_date>2026-10-31T21:07:36-07:00</video:publication_date>
+      <video:duration>9</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/kokab-fodool-guess-missing-car-part</loc>
+    <video:video>
+      <video:thumbnail_loc>https://hassneditor.com/kokab-fodool/7qWu7UPMd_c.jpg</video:thumbnail_loc>
+      <video:title>What Is Missing from the Car? — Guess with Fodool</video:title>
+      <video:description>A Guess with Fodool visual puzzle from Kokab Fodool, combining a recurring AI character, concise Arabic dialogue and short-form educational editing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/7qWu7UPMd_c</video:player_loc>
+      <video:publication_date>2026-10-31T21:07:36-07:00</video:publication_date>
+      <video:duration>9</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://www.youtube.com/@kokabfodool">Kokab Fodool</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/dental-motion-2026-explainer</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ytTdnO9NSqU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>دينتال موشن 2026 — فيديو توعوي قصير</video:title>
+      <video:description>دراسة مشروع فيديو توعوي للأسنان مدته 28 ثانية: تنظيم المعلومة، وتحريك النصوص والعناصر، ومونتاج عمودي واضح للمشاهدة على الهاتف.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/ytTdnO9NSqU</video:player_loc>
+      <video:publication_date>2026-02-01T21:42:05-08:00</video:publication_date>
+      <video:duration>28</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/dental-motion-2026-explainer</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ytTdnO9NSqU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Dental Motion 2026 — Short Explainer</video:title>
+      <video:description>A 28-second dental explainer case study: visual information design, animated text and graphics, and vertical editing for mobile viewing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/ytTdnO9NSqU</video:player_loc>
+      <video:publication_date>2026-02-01T21:42:05-08:00</video:publication_date>
+      <video:duration>28</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/fm-restaurant-ajman-live-event-video</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/nAamGmPPysI/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>مطعم FM عجمان | فيديو مطعم وفعالية موسيقية حية</video:title>
+      <video:description>مشروع تصوير ومونتاج لمطعم FM في عجمان يجمع تصوير المطعم والفعالية والموسيقى الحية مع المعالجة اللونية وتصميم الصوت والسرد البصري.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/nAamGmPPysI</video:player_loc>
+      <video:publication_date>2026-09-15T08:00:29-07:00</video:publication_date>
+      <video:duration>42</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/fm-restaurant-ajman-live-event-video</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/nAamGmPPysI/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>FM Restaurant Ajman | Restaurant &amp; Live Event Video</video:title>
+      <video:description>Restaurant and event videography project for FM Restaurant Ajman, combining filming, editing, color grading, sound design and live music storytelling.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/nAamGmPPysI</video:player_loc>
+      <video:publication_date>2026-09-15T08:00:29-07:00</video:publication_date>
+      <video:duration>42</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/fm-restaurant-cinematic-coffee-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/WKUJDv4LZMs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>مونتاج إعلان قهوة سينمائي — مطعم FM عجمان</video:title>
+      <video:description>مشروع مونتاج إعلان قهوة عمودي لمطعم FM في عجمان يجمع الإيقاع السينمائي والمعالجة اللونية وتصميم الصوت ضمن فيديو قصير جاهز للنشر.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/WKUJDv4LZMs</video:player_loc>
+      <video:publication_date>2026-09-22T05:04:58-07:00</video:publication_date>
+      <video:duration>15</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/fm-restaurant-cinematic-coffee-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/WKUJDv4LZMs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Cinematic Coffee Promo — FM Restaurant Ajman</video:title>
+      <video:description>Cinematic coffee promo editing for FM Restaurant Ajman, combining close product detail, color finishing, sound design and social-first vertical pacing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/WKUJDv4LZMs</video:player_loc>
+      <video:publication_date>2026-09-22T05:04:58-07:00</video:publication_date>
+      <video:duration>15</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/cinematic-food-videography-restaurant-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/FhfNrxrgLgE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>تصوير ومونتاج إعلان طعام سينمائي</video:title>
+      <video:description>مشروع تصوير ومونتاج طعام سينمائي يبرز تفاصيل الأطباق والتقديم ضمن إعلان مطعم عمودي وجاهز للنشر على منصات التواصل.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/FhfNrxrgLgE</video:player_loc>
+      <video:publication_date>2026-09-26T12:50:29-07:00</video:publication_date>
+      <video:duration>20</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/cinematic-food-videography-restaurant-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/FhfNrxrgLgE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Food Videography &amp; Editing | Cinematic Restaurant Ad</video:title>
+      <video:description>Cinematic food videography and editing that highlights dish detail, color and presentation in a polished vertical restaurant promo.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/FhfNrxrgLgE</video:player_loc>
+      <video:publication_date>2026-09-26T12:50:29-07:00</video:publication_date>
+      <video:duration>20</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/fm-restaurant-live-music-videography</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/F8gd5sZm4B8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>جميل خليل في مطعم FM عجمان | تصوير حفلة موسيقية</video:title>
+      <video:description>مشروع تصوير ومونتاج حفلة موسيقية حية في مطعم FM عجمان يجمع أداء الفنان وتفاعل الجمهور وأجواء المكان ضمن فيديو عمودي.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/F8gd5sZm4B8</video:player_loc>
+      <video:publication_date>2026-09-26T12:46:57-07:00</video:publication_date>
+      <video:duration>47</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/fm-restaurant-live-music-videography</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/F8gd5sZm4B8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Jamil Khalil at FM Restaurant Ajman | Live Music Videography</video:title>
+      <video:description>Live music videography at FM Restaurant Ajman combining performance, audience reactions and venue atmosphere in a polished vertical event video.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/F8gd5sZm4B8</video:player_loc>
+      <video:publication_date>2026-09-26T12:46:57-07:00</video:publication_date>
+      <video:duration>47</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/fm-restaurant-fajita-food-videography</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cpc5lK4WAgQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>تصوير طبق فاهيتا سينمائي | مطعم FM عجمان</video:title>
+      <video:description>تصوير ومونتاج طبق فاهيتا في مطعم FM عجمان ضمن فيديو طعام سينمائي عمودي يبرز الحركة والتقديم والتفاصيل الجذابة.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/cpc5lK4WAgQ</video:player_loc>
+      <video:publication_date>2026-09-23T09:49:55-07:00</video:publication_date>
+      <video:duration>26</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/fm-restaurant-fajita-food-videography</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/cpc5lK4WAgQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Restaurant Food Videography | Fajita Cinematic Reel</video:title>
+      <video:description>Fajita food videography at FM Restaurant Ajman, using close detail, movement, color and sound in a polished vertical restaurant Reel.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/cpc5lK4WAgQ</video:player_loc>
+      <video:publication_date>2026-09-23T09:49:55-07:00</video:publication_date>
+      <video:duration>26</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/works/ggbs-smart-factory-industrial-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fEfr2kHqQ8o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>مصنع GGBS الذكي — فيديو ترويجي صناعي</video:title>
+      <video:description>مشروع مونتاج فيديو ترويجي صناعي لمصنع GGBS ذكي يجمع المشاهد المدعومة بالذكاء الاصطناعي والموشن جرافيك والصوت والسرد السينمائي.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/fEfr2kHqQ8o</video:player_loc>
+      <video:publication_date>2026-08-31T03:17:55-07:00</video:publication_date>
+      <video:duration>49</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/works/ggbs-smart-factory-industrial-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fEfr2kHqQ8o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>GGBS Smart Factory | Industrial Promo Video</video:title>
+      <video:description>Industrial promo by Hassn Editor combining AI-assisted visuals, motion graphics, sound design and cinematic storytelling for a GGBS smart factory.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/fEfr2kHqQ8o</video:player_loc>
+      <video:publication_date>2026-08-31T03:17:55-07:00</video:publication_date>
+      <video:duration>49</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/dental-awareness-motion-graphics</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fBdcM8TO8YQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>فيديو توعوي للأسنان بأسلوب موشن جرافيك</video:title>
+      <video:description>دراسة مشروع لفيديو توعوي قصير للأسنان يجمع تبسيط الرسالة الطبية وتحريك النصوص والعناصر ضمن صيغة عمودية جاهزة للنشر.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/fBdcM8TO8YQ</video:player_loc>
+      <video:publication_date>2025-12-25T10:12:59-08:00</video:publication_date>
+      <video:duration>26</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/dental-awareness-motion-graphics</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fBdcM8TO8YQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Dental Awareness Video with Motion Graphics</video:title>
+      <video:description>A dental awareness project combining clear medical messaging, animated text and visual elements in a vertical social-ready video.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/fBdcM8TO8YQ</video:player_loc>
+      <video:publication_date>2025-12-25T10:12:59-08:00</video:publication_date>
+      <video:duration>26</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/hair-removal-spray-product-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/vv0wjZ2EU3c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعلان بخاخ إزالة الشعر بالموشن جرافيك</video:title>
+      <video:description>إعلان بخاخ إزالة الشعر بالموشن جرافيك والمونتاج، يبرز المنتج ومزاياه بصريًا ضمن فيديو عمودي قصير جاهز لمنصات التواصل.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/vv0wjZ2EU3c</video:player_loc>
+      <video:publication_date>2026-03-24T12:14:17-07:00</video:publication_date>
+      <video:duration>15</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/hair-removal-spray-product-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/vv0wjZ2EU3c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Hair Removal Spray Motion Graphics Ad</video:title>
+      <video:description>A short vertical hair removal spray advertisement combining motion graphics and editing to present the product and its benefits for social platforms.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/vv0wjZ2EU3c</video:player_loc>
+      <video:publication_date>2026-03-24T12:14:17-07:00</video:publication_date>
+      <video:duration>15</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/professional-ai-adobe-video-production</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YT-rI9n1qRw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>صناعة فيديو احترافي بالذكاء الاصطناعي وبرامج أدوبي</video:title>
+      <video:description>مشروع يجمع توليد المشاهد بالذكاء الاصطناعي مع المونتاج والموشن والمعالجة النهائية بأدوات أدوبي لإنتاج فيديو إعلاني احترافي.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/YT-rI9n1qRw</video:player_loc>
+      <video:publication_date>2026-07-22T23:29:40-07:00</video:publication_date>
+      <video:duration>30</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/professional-ai-adobe-video-production</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YT-rI9n1qRw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Professional AI and Adobe Video Production</video:title>
+      <video:description>See how AI-generated scenes, Adobe editing, motion graphics, color and sound finishing were combined into a professional digital advertising video.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/YT-rI9n1qRw</video:player_loc>
+      <video:publication_date>2026-07-22T23:29:40-07:00</video:publication_date>
+      <video:duration>30</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/al-sajaa-industrial-land-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/NCmGTgBdbhg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعلان أراضٍ صناعية — الصجعة، الشارقة</video:title>
+      <video:description>مشروع مونتاج فيديو عقاري لأراضٍ صناعية في الصجعة بالشارقة يجمع إنتاج مشاهد AI والموشن جرافيك وتصميم الصوت والمحتوى القصير.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/NCmGTgBdbhg</video:player_loc>
+      <video:publication_date>2026-09-12T00:38:47-07:00</video:publication_date>
+      <video:duration>40</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/al-sajaa-industrial-land-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/NCmGTgBdbhg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Industrial Land Promotional Video | Video Editing &amp; AI Production</video:title>
+      <video:description>Industrial land promotional video for Al Sajaa, Sharjah combining video editing, AI-assisted visuals, motion graphics, sound design and short-form storytelling.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/NCmGTgBdbhg</video:player_loc>
+      <video:publication_date>2026-09-12T00:38:47-07:00</video:publication_date>
+      <video:duration>40</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/al-qasimia-industrial-land-video</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/NwCgrnfXcK8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>فيديو أراضٍ صناعية في القاسمية</video:title>
+      <video:description>مشروع فيديو عقاري يوضح موقع الأراضي الصناعية وطبيعة الفرصة من خلال مونتاج مختصر وعناوين متحركة مهيأة لمنصات التواصل.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/NwCgrnfXcK8</video:player_loc>
+      <video:publication_date>2026-06-19T12:26:03-07:00</video:publication_date>
+      <video:duration>44</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/al-qasimia-industrial-land-video</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/NwCgrnfXcK8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Al Qasimia Industrial Land Marketing Video</video:title>
+      <video:description>A real-estate marketing project presenting Al Qasimia industrial land through concise editing, animated information and a social-ready format.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/NwCgrnfXcK8</video:player_loc>
+      <video:publication_date>2026-06-19T12:26:03-07:00</video:publication_date>
+      <video:duration>44</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/al-qasimia-cinematic-real-estate-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mwaa4vDENBI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعلان عقاري سينمائي — أراضي القاسمية بالشارقة</video:title>
+      <video:description>مشروع فيديو عقاري قصير لأراضي القاسمية في الشارقة يجمع المونتاج والموشن جرافيك والمشاهد المدعومة بالذكاء الاصطناعي.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/mwaa4vDENBI</video:player_loc>
+      <video:publication_date>2026-09-02T05:28:30-07:00</video:publication_date>
+      <video:duration>44</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/al-qasimia-cinematic-real-estate-promo</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mwaa4vDENBI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Cinematic Real Estate Promo — Al Qasimia, Sharjah</video:title>
+      <video:description>A cinematic real-estate promo for Al Qasimia, Sharjah combining video editing, motion graphics, AI-assisted visuals and sound design.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/mwaa4vDENBI</video:player_loc>
+      <video:publication_date>2026-09-02T05:28:30-07:00</video:publication_date>
+      <video:duration>44</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/beauty-product-social-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/O6rfDBsOq5Y/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعلان منتج تجميلي بتصوير ومونتاج احترافي</video:title>
+      <video:description>إعلان منتج تجميلي يجمع التصوير والمعالجة اللونية والمونتاج السريع لإنتاج فيديو تجاري عمودي جاهز لمنصات التواصل.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/O6rfDBsOq5Y</video:player_loc>
+      <video:publication_date>2026-04-02T11:56:29-07:00</video:publication_date>
+      <video:duration>41</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/beauty-product-social-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/O6rfDBsOq5Y/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Beauty Product Ad with Professional Filming and Editing</video:title>
+      <video:description>A beauty product advertisement combining filming, color treatment and fast social-first editing in a polished vertical commercial.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/O6rfDBsOq5Y</video:player_loc>
+      <video:publication_date>2026-04-02T11:56:29-07:00</video:publication_date>
+      <video:duration>41</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/dental-services-motion-design</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zHVt_0fdpgY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>موشن جرافيك لخدمات طب الأسنان</video:title>
+      <video:description>مشروع موشن جرافيك طبي يبسّط شرح خدمات الأسنان بعناوين واضحة وحركة منظمة ضمن فيديو عمودي قصير جاهز للنشر.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/zHVt_0fdpgY</video:player_loc>
+      <video:publication_date>2026-06-08T00:16:25-07:00</video:publication_date>
+      <video:duration>29</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/dental-services-motion-design</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zHVt_0fdpgY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Motion Graphics for Dental Services</video:title>
+      <video:description>A dental services motion graphics project using clear titles and organized animation in a concise vertical video built for social publishing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/zHVt_0fdpgY</video:player_loc>
+      <video:publication_date>2026-06-08T00:16:25-07:00</video:publication_date>
+      <video:duration>29</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/from-vision-to-ai-visuals</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/yBCnUBcUVgg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>من الرؤية إلى الصورة — فيديو بالذكاء الاصطناعي</video:title>
+      <video:description>مشروع يوضح تحويل فكرة أولية إلى مشاهد متناسقة بالذكاء الاصطناعي، ثم المونتاج ومعالجة الصورة والصوت حتى فيديو جاهز للنشر.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/yBCnUBcUVgg</video:player_loc>
+      <video:publication_date>2026-07-16T06:18:33-07:00</video:publication_date>
+      <video:duration>26</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/from-vision-to-ai-visuals</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/yBCnUBcUVgg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>From Vision to Visuals — AI Video</video:title>
+      <video:description>Explore how an initial concept became a cohesive AI visual experience through scene direction, editing, pacing, image treatment and sound finishing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/yBCnUBcUVgg</video:player_loc>
+      <video:publication_date>2026-07-16T06:18:33-07:00</video:publication_date>
+      <video:duration>26</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/projects/swiss-product-story-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/B-GSumhDcmA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>إعلان منتج سويسري بأسلوب قصة قصيرة</video:title>
+      <video:description>مشروع مونتاج إعلان منتج يربط المنشأ السويسري بقيمة المنتج من خلال قصة قصيرة وعناوين واضحة وإيقاع مناسب للسوشيال ميديا.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/B-GSumhDcmA</video:player_loc>
+      <video:publication_date>2026-03-22T08:09:38-07:00</video:publication_date>
+      <video:duration>36</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+<url>
+    <loc>https://hassneditor.com/en/projects/swiss-product-story-ad</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/B-GSumhDcmA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Swiss Product Advertisement with a Short Story</video:title>
+      <video:description>A Swiss product advertisement connecting origin and value through concise storytelling, clear titles and social-ready visual pacing.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube-nocookie.com/embed/B-GSumhDcmA</video:player_loc>
+      <video:publication_date>2026-03-22T08:09:38-07:00</video:publication_date>
+      <video:duration>36</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:uploader info="https://hassneditor.com/en/about-hassn-editor">HASSN EDITOR</video:uploader>
+    </video:video>
+  </url>
+</urlset>

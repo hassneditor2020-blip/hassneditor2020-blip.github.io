@@ -1,0 +1,12 @@
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: *
+Allow: /
+
+Host: https://hassneditor.com
+Sitemap: https://hassneditor.com/sitemap.xml
+Sitemap: https://hassneditor.com/video-sitemap.xml

@@ -1,0 +1,234 @@
+[
+  {
+    "host": "hassneditor.com",
+    "type": "A",
+    "status": 0,
+    "answers": [
+      {
+        "name": "hassneditor.com.",
+        "type": 1,
+        "TTL": 1799,
+        "data": "172.66.3.26"
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 1,
+        "TTL": 1799,
+        "data": "162.159.143.30"
+      }
+    ]
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "AAAA",
+    "status": 0,
+    "answers": []
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "CNAME",
+    "status": 0,
+    "answers": []
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "MX",
+    "status": 0,
+    "answers": [
+      {
+        "name": "hassneditor.com.",
+        "type": 15,
+        "TTL": 1800,
+        "data": "10 eforward2.registrar-servers.com."
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 15,
+        "TTL": 1800,
+        "data": "10 eforward3.registrar-servers.com."
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 15,
+        "TTL": 1800,
+        "data": "10 eforward1.registrar-servers.com."
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 15,
+        "TTL": 1800,
+        "data": "15 eforward4.registrar-servers.com."
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 15,
+        "TTL": 1800,
+        "data": "20 eforward5.registrar-servers.com."
+      }
+    ]
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "TXT",
+    "status": 0,
+    "answers": [
+      {
+        "name": "hassneditor.com.",
+        "type": 16,
+        "TTL": 1799,
+        "data": "google-site-verification=Msnbxy4KZVJ424BnRK1Chw7zOga9kWijXYYrMQPKr9o"
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 16,
+        "TTL": 1799,
+        "data": "google-site-verification=tOk4s0R8RVCU_TLemXb-vO6WE-q7ceUduLyJ18Riq9M"
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 16,
+        "TTL": 1799,
+        "data": "v=spf1 include:spf.efwd.registrar-servers.com ~all"
+      }
+    ]
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "CAA",
+    "status": 0,
+    "answers": []
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "NS",
+    "status": 0,
+    "answers": [
+      {
+        "name": "hassneditor.com.",
+        "type": 2,
+        "TTL": 1800,
+        "data": "dns1.registrar-servers.com."
+      },
+      {
+        "name": "hassneditor.com.",
+        "type": 2,
+        "TTL": 1800,
+        "data": "dns2.registrar-servers.com."
+      }
+    ]
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "SOA",
+    "status": 0,
+    "answers": [
+      {
+        "name": "hassneditor.com.",
+        "type": 6,
+        "TTL": 3601,
+        "data": "dns1.registrar-servers.com. hostmaster.registrar-servers.com. 1787729379 43200 3600 604800 3601"
+      }
+    ]
+  },
+  {
+    "host": "hassneditor.com",
+    "type": "HTTPS",
+    "status": 0,
+    "answers": []
+  },
+  {
+    "host": "www.hassneditor.com",
+    "type": "A",
+    "status": 0,
+    "answers": [
+      {
+        "name": "www.hassneditor.com.",
+        "type": 5,
+        "TTL": 1799,
+        "data": "custom-domains.chatgpt.site."
+      },
+      {
+        "name": "custom-domains.chatgpt.site.",
+        "type": 1,
+        "TTL": 300,
+        "data": "104.18.22.186"
+      },
+      {
+        "name": "custom-domains.chatgpt.site.",
+        "type": 1,
+        "TTL": 300,
+        "data": "104.18.23.186"
+      }
+    ]
+  },
+  {
+    "host": "www.hassneditor.com",
+    "type": "AAAA",
+    "status": 0,
+    "answers": [
+      {
+        "name": "www.hassneditor.com.",
+        "type": 5,
+        "TTL": 1799,
+        "data": "custom-domains.chatgpt.site."
+      },
+      {
+        "name": "custom-domains.chatgpt.site.",
+        "type": 28,
+        "TTL": 300,
+        "data": "2606:4700::6812:17ba"
+      },
+      {
+        "name": "custom-domains.chatgpt.site.",
+        "type": 28,
+        "TTL": 300,
+        "data": "2606:4700::6812:16ba"
+      }
+    ]
+  },
+  {
+    "host": "www.hassneditor.com",
+    "type": "CNAME",
+    "status": 0,
+    "answers": [
+      {
+        "name": "www.hassneditor.com.",
+        "type": 5,
+        "TTL": 1799,
+        "data": "custom-domains.chatgpt.site."
+      }
+    ]
+  },
+  {
+    "host": "www.hassneditor.com",
+    "type": "TXT",
+    "status": 0,
+    "answers": [
+      {
+        "name": "www.hassneditor.com.",
+        "type": 5,
+        "TTL": 1799,
+        "data": "custom-domains.chatgpt.site."
+      }
+    ]
+  },
+  {
+    "host": "www.hassneditor.com",
+    "type": "CAA",
+    "status": 0,
+    "answers": [
+      {
+        "name": "www.hassneditor.com.",
+        "type": 5,
+        "TTL": 1799,
+        "data": "custom-domains.chatgpt.site."
+      }
+    ]
+  },
+  {
+    "host": "_dmarc.hassneditor.com",
+    "type": "TXT",
+    "status": 3,
+    "answers": []
+  }
+]

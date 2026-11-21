@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import PackagesPage from "../../PackagesPage";
+export const metadata: Metadata = { title: "باقات المونتاج وإنتاج الفيديو", description: "باقات مرنة للمونتاج وإنتاج الفيديو حسب تفاصيل مشروعك. السعر بعد التواصل مع حسن إيديتور.", alternates: { canonical: "/packages", languages: { ar: "/packages", en: "/en/packages", "x-default": "/packages" } }, openGraph: { title: "باقات المونتاج وإنتاج الفيديو", description: "باقات مرنة للمونتاج وإنتاج الفيديو حسب تفاصيل مشروعك. السعر بعد التواصل مع حسن إيديتور.", url: "https://hassneditor.com/packages", locale: "ar_AE" }, twitter: { title: "باقات المونتاج وإنتاج الفيديو", description: "باقات مرنة للمونتاج وإنتاج الفيديو حسب تفاصيل مشروعك. السعر بعد التواصل مع حسن إيديتور." } };
+export default function Page() { return <PackagesPage language="ar" />; }

@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import PackagesPage from "../../../PackagesPage";
+export const metadata: Metadata = { title: "Video Editing & Production Packages", description: "Video editing and production packages tailored to your brief. Pricing after consultation with Hassn Editor.", alternates: { canonical: "/en/packages", languages: { ar: "/packages", en: "/en/packages", "x-default": "/packages" } }, openGraph: { title: "Video Editing & Production Packages", description: "Video editing and production packages tailored to your brief. Pricing after consultation with Hassn Editor.", url: "https://hassneditor.com/en/packages", locale: "en_AE" }, twitter: { title: "Video Editing & Production Packages", description: "Video editing and production packages tailored to your brief. Pricing after consultation with Hassn Editor." } };
+export default function Page() { return <PackagesPage language="en" />; }

@@ -1,0 +1,12 @@
+# Local environments and temporary build outputs
+node_modules/
+.env
+.env.*
+!.env.example
+site/.next/
+site/out/
+site/dist/
+_github_pages_staging/
+_github_pages_old/
+.DS_Store
+*.log
