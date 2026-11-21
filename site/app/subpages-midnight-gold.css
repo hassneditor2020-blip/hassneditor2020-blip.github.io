@@ -261,3 +261,51 @@ body:has(.site:not(.home-page)) .floating-whatsapp:hover {
   .site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.service-directory a) { transition:none; }
   .site:not(.home-page) :is(.service-card,.work-card,.pricing-card,.guides-grid a,.industries-grid article,.guide-related-projects a,.project-related-showcase a,.service-directory a):hover { transform:none; }
 }
+
+/* Unified header behavior: one stable Midnight Gold surface, subtle tab indicator only. */
+.site:not(.home-page) .unified-header,
+.site:not(.home-page) .unified-header:hover,
+.site:not(.home-page) .unified-header:focus-within,
+.site:not(.home-page) .unified-header.is-scrolled {
+  background: rgba(8, 10, 13, .78);
+  background-color: rgba(8, 10, 13, .78);
+  transition: none;
+}
+.site:not(.home-page) .unified-header .site-nav { background-color: transparent; }
+.site:not(.home-page) .unified-header .site-nav a {
+  position: relative;
+  background: transparent;
+  transition: color .25s ease;
+}
+.site:not(.home-page) .unified-header .site-nav a::after {
+  content: "";
+  position: absolute;
+  inset-inline: 50%;
+  bottom: 4px;
+  height: 2px;
+  border-radius: 99px;
+  background: #d9b86c;
+  box-shadow: 0 0 10px rgba(217,184,108,.45);
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform .28s ease;
+}
+.site:not(.home-page) .unified-header .site-nav a:hover::after,
+.site:not(.home-page) .unified-header .site-nav a[aria-current="page"]::after,
+.site:not(.home-page) .unified-header .site-nav a:focus-visible::after { transform: translateX(-50%) scaleX(1); }
+.site:not(.home-page) .unified-header .site-nav a[aria-current="page"] {
+  color: #f0d99a;
+  background: transparent;
+}
+@media (max-width: 700px) {
+  .site:not(.home-page) .unified-header .site-nav.open,
+  .site:not(.home-page) .unified-header .site-nav.open:hover,
+  .site:not(.home-page) .unified-header .site-nav.open:focus-within {
+    background: rgba(8, 10, 13, .78);
+    background-color: rgba(8, 10, 13, .78);
+  }
+  .site:not(.home-page) .unified-header .site-nav a::after { bottom: 3px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site:not(.home-page) .unified-header .site-nav a::after { transition: none; }
+}

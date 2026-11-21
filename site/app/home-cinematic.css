@@ -813,3 +813,34 @@ body:has(.home-page) .floating-whatsapp:focus-visible {
   body:has(.home-page) .floating-whatsapp:hover,
   body:has(.home-page) .floating-whatsapp:focus-visible { transform: none; }
 }
+
+/* Stable homepage header with a restrained gold tab indicator. */
+.home-page .unified-header .site-nav a {
+  position: relative;
+  background: transparent;
+  transition: color .25s ease;
+}
+.home-page .unified-header .site-nav a::after {
+  content: "";
+  position: absolute;
+  inset-inline: 50%;
+  bottom: 4px;
+  height: 2px;
+  border-radius: 99px;
+  background: var(--accent);
+  box-shadow: 0 0 10px rgba(217,184,108,.45);
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform .28s ease;
+}
+.home-page .unified-header .site-nav a:hover::after,
+.home-page .unified-header .site-nav a[aria-current="page"]::after,
+.home-page .unified-header .site-nav a:focus-visible::after { transform: translateX(-50%) scaleX(1); }
+.home-page .unified-header .site-nav a[aria-current="page"] {
+  color: var(--accent-soft);
+  background: transparent;
+  box-shadow: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-page .unified-header .site-nav a::after { transition: none; }
+}
