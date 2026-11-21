@@ -13,6 +13,7 @@ import { useVideoViewer } from "./VideoViewer";
 import { useRef, useState } from "react";
 import PrivacySettingsButton from "./PrivacySettingsButton";
 import { trackEvent } from "./analyticsEvents";
+import "./home-cinematic.css";
 
 const professionalProfiles = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/hassn-editor" },
@@ -153,6 +154,7 @@ export function HomePage({ initialLanguage = "ar" }: { initialLanguage?: "ar" | 
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">HASSN EDITOR · SINCE 2020</p>
+          <p className="hero-kicker" aria-hidden="true">VISUAL STORIES <span> / </span> UAE &amp; BEYOND</p>
           <h1>{en ? <>Videography &amp; Reels<br /><em>Professional video editing</em></> : <>تصوير فيديو وريلز<br /><em>ومونتاج احترافي</em></>}</h1>
           <p className="intro" id="about">
             {en
@@ -193,11 +195,11 @@ export function HomePage({ initialLanguage = "ar" }: { initialLanguage?: "ar" | 
         </div>
       </section>
 
+      <FeaturedReels language={initialLanguage} />
       <nav className="home-work-shortcuts" aria-label={en ? "Browse projects by specialty" : "تصفح الأعمال حسب التخصص"}>
         <h2>{en ? "Find work relevant to your business" : "شاهد أعمالًا تناسب نشاطك"}</h2>
         <div>{[["restaurant-events", "مطاعم وفعاليات", "Restaurants & events"], ["ads", "إعلانات المنتجات", "Product ads"], ["medical", "عيادات ومراكز طبية", "Dental & medical"], ["realestate", "عقارات", "Real estate"], ["industry", "شركات وصناعة", "Corporate & industrial"], ["ai", "ذكاء اصطناعي", "AI video"]].map(([id, ar, label]) => <Link key={id} prefetch={false} href={`${en ? "/en" : ""}/works#${id}`} onClick={() => track("home_portfolio_category", {category: id})}>{en ? label : ar}<ArrowIcon /></Link>)}</div>
       </nav>
-      <FeaturedReels language={initialLanguage} />
       <KokabFodoolFeature language={initialLanguage} />
 
       <section className="trust-stats" aria-label={en ? "Work and client statistics" : "أرقام الأعمال وثقة العملاء"}>
